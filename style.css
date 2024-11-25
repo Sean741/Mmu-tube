@@ -1,0 +1,44 @@
+/* Global styles */
+body {
+    background-color: #141414;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+  }
+  
+  .hero-banner {
+    background: url('banner.jpg') center center/cover no-repeat;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .category-item img, .genre-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .category-item, .genre-item {
+    text-align: center;
+  }
+  
+  .category-item p, .genre-item p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-danger {
+    color: #ccff00;
+  }
+  

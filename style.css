@@ -25,6 +25,10 @@ body {
     color: rgb(255, 196, 0); /* Change color when hovered */
 }
 
+.nav-link.active {
+    text-decoration: underline;
+  }
+
 .category-item, .genre-item {
     text-align: center;
 }
@@ -78,7 +82,7 @@ body {
 }
 
 .hero-section .cta-btn:hover {
-    background-color: #ff9d00; /* Slightly darker yellow for hover */
+    background-color: #ffee00; /* Slightly darker yellow for hover */
 }
 
 /* Responsive Adjustments */

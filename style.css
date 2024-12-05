@@ -1,7 +1,8 @@
 /* Global styles */
 body {
-    background-color: #141414;
+    background-color: #000000;
 }
+
 
 .hero-banner {
     background: url('banner.jpg') center center/cover no-repeat;

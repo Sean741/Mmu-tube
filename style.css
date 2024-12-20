@@ -3,24 +3,13 @@ body {
     background-color: #000000;
 }
 
-
-.hero-banner {
-    background: url('banner.jpg') center center/cover no-repeat;
-    height: 60vh;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+/* Navbar */
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
-.category-item img, .genre-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-
 
 .nav-item a:hover {
     color: rgb(255, 196, 0); /* Change color when hovered */
@@ -28,7 +17,7 @@ body {
 
 .nav-link.active {
     text-decoration: underline;
-  }
+}
 
 .category-item, .genre-item {
     text-align: center;
@@ -43,15 +32,13 @@ body {
     color: white;
 }
 
-
-/* Ensure the hero section image covers the entire screen */
+/* Hero Section */
 .hero-section .hero-image {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 
-/* Caption Styles */
 .hero-section .caption {
     position: absolute;
     bottom: 0;
@@ -60,6 +47,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     padding: 30px;
     text-align: left;
+    width: 100%;
 }
 
 .hero-section .caption h1 {
@@ -83,7 +71,57 @@ body {
 }
 
 .hero-section .cta-btn:hover {
-    background-color:  #ff4400; /* Slightly darker colour for hover */
+    background-color: #ff4400; /* Slightly darker color for hover */
+}
+
+/* Movies Section */
+.heading {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: azure;
+    border-bottom: 1px solid #FFB800; /* Fixed border color */
+}
+
+.movies-container {
+    max-width: 968px;  /* Matching width with heading */
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box .box-img {
+    width: 100%;
+    height: 270px;
+    cursor: pointer;
+}
+
+.box .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .box-img img:hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.box h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: azure;
+}
+
+.box span {
+    font-size: 14px;
+    color: azure;
 }
 
 /* Responsive Adjustments */
@@ -100,58 +138,4 @@ body {
         font-size: 1rem;
         padding: 10px 25px;
     }
-}
-
-/*movies*/
-.heading{
-    max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: azure;
-    border-bottom: 1px solid var(#FFB800);
-
-}
-
-.movies-container{
-    max-width: 968px;
-    margin-right: auto;
-    margin-left: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px,auto));
-    gap: 1rem;
-    margin-top: 2rem;
-
-}
-
-.box .box-img{
-    width: 100%;
-    height: 270px;
-    cursor: pointer;
-
-}
-
-.box  .box-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.box  .box-img img:hover{
-    transform: translateY(-10px);
-    transition: 0.2s all linear;
-}
-
-.box h3{
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: azure;
-}
-
-.box span{
-    font-size: 14px;
-    color: azure;
 }

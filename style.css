@@ -75,6 +75,10 @@ body {
 }
 
 /* Movies Section */
+.movies {
+    margin-top: 3rem;
+}
+
 .heading {
     max-width: 968px;
     margin-left: auto;

@@ -1,6 +1,8 @@
 /* Global styles */
 body {
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navbar */
@@ -17,19 +19,6 @@ body {
 
 .nav-link.active {
     text-decoration: underline;
-}
-
-.category-item, .genre-item {
-    text-align: center;
-}
-
-.category-item p, .genre-item p {
-    margin-top: 10px;
-    font-size: 1.1rem;
-}
-
-.text-white {
-    color: white;
 }
 
 /* Hero Section */
@@ -95,15 +84,28 @@ body {
     margin-right: auto;
     margin-left: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1rem;
     margin-top: 2rem;
 }
 
+/* Movie Box Styling */
+.box {
+    display: flex;
+    flex-direction: column;  /* Stack the image and text vertically */
+    justify-content: space-between;  /* Align content inside the box */
+    align-items: center;  /* Center content horizontally */
+    min-height: 400px; /* Set a minimum height for consistent box size */
+    background-color: #111;  /* Dark background for each box */
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Movie Image Styling */
 .box .box-img {
     width: 100%;
-    height: 270px;
-    cursor: pointer;
+    height: 250px;
+    margin-bottom: 15px; /* Space between image and text */
 }
 
 .box .box-img img {
@@ -112,34 +114,36 @@ body {
     object-fit: cover;
 }
 
-.box .box-img img:hover {
-    transform: translateY(-10px);
-    transition: 0.2s all linear;
-}
-
+/* Movie Title and Genre Styling */
 .box h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;  /* Slightly larger text for titles */
     font-weight: 500;
-    color: azure;
+    color: #fff;  /* Yellow text for titles */
+    margin-bottom: 5px;
 }
 
 .box span {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: azure;
+    margin-bottom: 15px;  /* Space between genre and link */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .hero-section .caption h1 {
-        font-size: 2rem;
-    }
+/* Watch Now Link */
+.watch-link {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    color: #FFB800;
+    background-color: transparent;
+    border: 2px solid #FFB800;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
 
-    .hero-section .caption p {
-        font-size: 1rem;
-    }
-
-    .hero-section .cta-btn {
-        font-size: 1rem;
-        padding: 10px 25px;
-    }
+.watch-link:hover {
+    background-color: #FFB800;
+    color: black;
+    border: 2px solid #FFB800;
 }

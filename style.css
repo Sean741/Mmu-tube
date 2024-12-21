@@ -69,7 +69,7 @@ body {
 }
 
 .heading {
-    max-width: 968px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.2rem;
@@ -80,7 +80,7 @@ body {
 }
 
 .movies-container {
-    max-width: 968px;  /* Matching width with heading */
+    max-width: 100%;  /* Matching width with heading */
     margin-right: auto;
     margin-left: auto;
     display: grid;
@@ -146,4 +146,38 @@ body {
     background-color: #FFB800;
     color: black;
     border: 2px solid #FFB800;
+}
+
+
+/* Carousel Section Styling */
+.carousel-section {
+    background-color: #111;
+    color: white;
+    padding: 4rem 0;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 60vh; /* Adjusted height for large images */
+}
+
+.heading {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 2px solid #FFB800;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #FFB800;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 1.5rem;
 }

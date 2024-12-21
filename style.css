@@ -162,7 +162,7 @@ body {
 }
 
 .heading {
-    max-width: 968px;
+    
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5rem;
@@ -180,4 +180,10 @@ body {
 
 .carousel-control-prev, .carousel-control-next {
     font-size: 1.5rem;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    margin-top: 3rem;
 }

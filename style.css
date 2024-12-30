@@ -271,7 +271,6 @@ body {
 .youtube-embed {
     height: 500px; /* Set this to match the height of your carousel */
     overflow: hidden;
-    margin-top: 50px; /* Optional: Add some margin for spacing */
 }
 
 .youtube-embed iframe {

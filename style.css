@@ -283,10 +283,11 @@ body {
 /* Title for the Video Section */
 .youtube-embed .caption {
  /* YouTube Embed Section */
+
 .youtube-embed {
     height: 500px; /* Set this to match the height of your carousel */
     overflow: hidden;
-    margin-top: 50px; /* Optional: Add some margin for spacing */
+   margin-top: 25px;
 }
 
 .youtube-embed iframe {

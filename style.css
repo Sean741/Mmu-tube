@@ -406,29 +406,15 @@ body {
     }
   }
 
-  /* Social Media Button Styles */
-.btn-facebook {
-    background-color: #3b5998;
-    color: white;
-  }
-  .btn-facebook:hover {
-    background-color: #2d4373;
+ /* Style social media icons */
+.social-media a {
+    font-size: 30px; /* Adjust size of icons */
+    color: #fff; /* Default color for icons */
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover */
   }
   
-  .btn-twitter {
-    background-color: #1da1f2;
-    color: white;
-  }
-  .btn-twitter:hover {
-    background-color: #0c84b0;
-  }
-  
-  .btn-instagram {
-    background-color: #e1306c;
-    color: white;
-  }
-  .btn-instagram:hover {
-    background-color: #d0245b;
+  .social-media a:hover {
+    color: #FFB800; /* Change color on hover */
   }
   
   /* Button Alignment */
@@ -439,4 +425,13 @@ body {
     margin-top: 0;
     margin-bottom: 1rem;
     color: beige;
-}  
+  }
+
+/* Custom styling for 'Or' text */
+.or-text {
+    color: #fff;  /* Example color */
+    font-weight: bold;
+    margin: 0 1px;  /* Adjust spacing around 'Or' */
+  }
+  
+ 

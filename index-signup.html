@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streaming Service</title>
+    <head>
+      <!-- Other links -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -51,13 +56,18 @@
     </div>
   </div>
 </section>
-
 <!-- Contact Form Section -->
 <section id="contact" class="contact-section py-5">
   <div class="container">
     <h2 class="heading">Sign In</h2>
     <div class="row">
-      <!-- Left Side: Contact Form -->
+
+      <!-- Left Side: Picture -->
+      <div class="col-md-6">
+        <img src="images/contact-us/soda.jpg" alt="Contact Image" class="img-fluid rounded">
+      </div>
+
+      <!-- Right Side: Contact Form -->
       <div class="col-md-6">
         <form action="#" method="POST" class="contact-form">
           <div class="mb-3">
@@ -88,35 +98,32 @@
           </div>
 
           <!-- Submit Button and Sign Up Link -->
-          <div class="d-flex justify-content-between">
-            <a href="#" class="cta-btn btn btn-lg">Sign In</a>
-            <p>Or</p>
-            <a href="#" class="cta-btn btn btn-lg">Sign up Now</a>
-          </div>
+          <div class=" justify-content-between align-items-center">
+           <a href="#" class="cta-btn btn btn-lg">Sign In</a>
+             <span class="or-text">Or</span>
+           <a href="#" class="cta-btn btn btn-lg">Sign Up Now</a>
+        </div>
 
-          <!-- Social Media Links -->
-          <div class="mt-4 text-center">
-            <p>Or connect with us on social media:</p>
-            <a href="https://www.facebook.com" target="_blank" class="btn btn-facebook btn-lg me-2">
-              <i class="fab fa-facebook-f"></i> Facebook
-            </a>
-            <a href="https://www.twitter.com" target="_blank" class="btn btn-twitter btn-lg me-2">
-              <i class="fab fa-twitter"></i> Twitter
-            </a>
-            <a href="https://www.instagram.com" target="_blank" class="btn btn-instagram btn-lg">
-              <i class="fab fa-instagram"></i> Instagram
-            </a>
-          </div>
+          <!-- Social Media Links with Icons -->
+<div class="mt-4 ">
+  <p>Or connect with us on social media:</p>
+  <div class="social-media">
+    <a href="https://www.facebook.com" target="_blank" class="btn btn-lg me-2">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.twitter.com" target="_blank" class="btn btn-lg me-2">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" class="btn btn-lg">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</div>
         </form>
       </div>
 
-      <!-- Right Side: Picture -->
-      <div class="col-md-6">
-        <img src="images/contact-us/contact-us-hero.jpg" alt="Contact Image" class="img-fluid rounded">
-      </div>
     </div>
   </div>
-  
 </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

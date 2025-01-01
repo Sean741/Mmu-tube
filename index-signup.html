@@ -1,23 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <link rel="style.css" href="style.css">
-</head>
-<body>
-
-</body>
-</html>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Streaming Service</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <title>Streaming Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -46,24 +35,89 @@
   </div>
 </nav>
 
-
-
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="container-fluid p-0 position-relative">
-      <!-- Background Image -->
-      <img src="images/contact-us/bridge.jpg" alt="Hero Movie" class="hero-image img-fluid">
-      
-      <!-- Overlay and Text Content -->
-      <div class="caption position-absolute bottom-0 start-0 text-white bg-black bg-opacity-75 p-4 w-100">
-        <div class="container">
-          <h1 class="display-4">Contact Us</h1>
-          <p class="lead">For any inquiries, support, or questions about uploading your films, please reach out to us at contact@mmutubefilms.com or give us a call at (+44) 456-7890. Our team is dedicated to assisting you with the process and providing any necessary guidance.</p>
-          <a href="#" class="cta-btn btn btn-lg">Call Now</a>
-        </div>
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container-fluid p-0 position-relative">
+    <!-- Background Image -->
+    <img src="images/contact-us/bridge.jpg" alt="Hero Movie" class="hero-image img-fluid">
+    
+    <!-- Overlay and Text Content -->
+    <div class="caption position-absolute bottom-0 start-0 text-white bg-black bg-opacity-75 p-4 w-100">
+      <div class="container">
+        <h1 class="display-4">Contact Us</h1>
+        <p class="lead">For any inquiries, support, or questions about uploading your films, please reach out to us at contact@mmutubefilms.com or give us a call at (+44) 456-7890. Our team is dedicated to assisting you with the process and providing any necessary guidance.</p>
+        <a href="#" class="cta-btn btn btn-lg">Call Now</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact" class="contact-section py-5">
+  <div class="container">
+    <h2 class="heading">Sign In</h2>
+    <div class="row">
+      <!-- Left Side: Contact Form -->
+      <div class="col-md-6">
+        <form action="#" method="POST" class="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <!-- Optional Phone Number Field -->
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number (Optional)</label>
+            <input type="text" class="form-control" id="phone" name="phone">
+          </div>
+
+          <!-- Optional Address Field -->
+          <div class="mb-3">
+            <label for="address" class="form-label">Address (Optional)</label>
+            <input type="text" class="form-control" id="address" name="address">
+          </div>
+
+          <!-- Submit Button and Sign Up Link -->
+          <div class="d-flex justify-content-between">
+            <a href="#" class="cta-btn btn btn-lg">Sign In</a>
+            <p>Or</p>
+            <a href="#" class="cta-btn btn btn-lg">Sign up Now</a>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="mt-4 text-center">
+            <p>Or connect with us on social media:</p>
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-facebook btn-lg me-2">
+              <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="btn btn-twitter btn-lg me-2">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="btn btn-instagram btn-lg">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Side: Picture -->
+      <div class="col-md-6">
+        <img src="images/contact-us/contact-us-hero.jpg" alt="Contact Image" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+  
+</section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 

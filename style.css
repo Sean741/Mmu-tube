@@ -14,7 +14,7 @@ body {
 }
 
 .nav-item a:hover {
-    color: rgb(255, 196, 0); /* Change color when hovered */
+    color: rgb(255, 196, 0); 
 }
 
 .nav-link.active {
@@ -33,7 +33,7 @@ body {
     bottom: 0;
     left: 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 30px;
     text-align: left;
     width: 100%;
@@ -52,7 +52,7 @@ body {
 .hero-section .cta-btn {
     font-size: 1.1rem;
     padding: 12px 30px;
-    background-color: #FFB800; /* Dark Yellow */
+    background-color: #FFB800; 
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -60,7 +60,7 @@ body {
 }
 
 .hero-section .cta-btn:hover {
-    background-color: #ff4400; /* Slightly darker color for hover */
+    background-color: #ff4400; 
 }
 
 /* Movies Section */
@@ -76,11 +76,11 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     color: azure;
-    border-bottom: 1px solid #FFB800; /* Fixed border color */
+    border-bottom: 1px solid #FFB800; 
 }
 
 .movies-container {
-    max-width: 100%;  /* Matching width with heading */
+    max-width: 100%;  
     margin-right: auto;
     margin-left: auto;
     display: grid;
@@ -90,23 +90,23 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Movie Box Styling */
+/* Movie Box */
 .box {
     display: flex;
-    flex-direction: column;  /* Stack the image and text vertically */
-    justify-content: space-between;  /* Align content inside the box */
-    align-items: center;  /* Center content horizontally */
-    min-height: 400px; /* Set a minimum height for consistent box size */
-    background-color: #040404;  /* Dark background for each box */
+    flex-direction: column;  
+    justify-content: space-between;  
+    align-items: center;  
+    min-height: 400px; 
+    background-color: #040404;  
     padding: 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Movie Image Styling */
+/* Movie Image */
 .box .box-img {
     width: 100%;
     height: 250px;
-    margin-bottom: 15px; /* Space between image and text */
+    margin-bottom: 15px; 
 }
 
 .box .box-img img {
@@ -115,18 +115,18 @@ body {
     object-fit: cover;
 }
 
-/* Movie Title and Genre Styling */
+/* Movie Title */
 .box h3 {
-    font-size: 1.2rem;  /* Slightly larger text for titles */
+    font-size: 1.2rem;  
     font-weight: 500;
-    color: #fff;  /* Yellow text for titles */
+    color: #fff;  
     margin-bottom: 5px;
 }
 
 .box span {
     font-size: 0.9rem;
     color: azure;
-    margin-bottom: 15px;  /* Space between genre and link */
+    margin-bottom: 15px;  
 }
 
 /* Watch Now Link */
@@ -150,7 +150,7 @@ body {
 }
 
 
-/* Carousel Section Styling */
+/* Carousel Section*/
 .carousel-section {
     background-color: #040404;
     color: white;
@@ -159,54 +159,54 @@ body {
 }
 
 
-/* Carousel Item Styles */
+/* Carousel Item  */
 .carousel-item img {
     object-fit: cover;
-    height: 60vh; /* Adjusted height for large images */
+    height: 60vh; 
     margin-top: 2rem;
 }
 
-/* Carousel Inner Wrapper - Aligning width */
+/* Carousel Inner Wrapper */
 .carousel-inner {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-/* Caption Styling */
+/* Caption */
 .carousel-caption {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    width: 80%;              /* Limit the width of the caption */
-    max-width: 600px;        /* Optional: max-width to control caption size */
+    width: 80%;              
+    max-width: 600px;       
 }
 
-/* Title Styling */
+/* Title  */
 .carousel-caption h3 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #FFB800; /* Yellow color for titles */
+    color: #FFB800; 
 }
 
-/* Description Styling */
+/* Description */
 .carousel-caption p {
     font-size: 1rem;
     margin-bottom: 20px;
     color: white;
 }
 
-/* CTA Button Styling */
+/* CTA Button */
 .carousel-caption .cta-btn {
     font-size: 1rem;
     padding: 10px 25px;
-    background-color: #FFB800; /* Dark Yellow */
+    background-color: #FFB800; 
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -215,7 +215,7 @@ body {
 }
 
 .carousel-caption .cta-btn:hover {
-    background-color: #ff4400; /* Slightly darker color for hover */
+    background-color: #ff4400; 
 }
 
 /* Carousel Controls */
@@ -278,16 +278,16 @@ body {
 }
 
 
-/* Footer Styles */
+/* Footer */
 .footer {
-    background-color: #040404; /* Dark background */
-    color: #fff; /* White text */
-    padding: 30px 0; /* Top and bottom padding */
-    margin-top: 3rem; /* Space between content and footer */
+    background-color: #040404; 
+    color: #fff; 
+    padding: 30px 0; 
+    margin-top: 3rem; 
 }
 
 .footer .container {
-    max-width: 968px; /* Match other sections' max-width */
+    max-width: 968px; 
     margin: 0 auto;
 }
 
@@ -309,7 +309,7 @@ body {
 
 .footer .footer-links a {
     text-decoration: none;
-    color: #FFB800; /* Yellow link color */
+    color: #FFB800; 
     font-size: 0.9rem;
 }
 
@@ -319,22 +319,22 @@ body {
 
 /* YouTube Embed Section */
 .youtube-embed {
-    height: 500px; /* Set this to match the height of your carousel */
+    height: 500px; 
     overflow: hidden;
 }
 
 .youtube-embed iframe {
     width: 100%;
     height: 60vh;
-    object-fit: cover; /* Ensures the video covers the space without distortion */
+    object-fit: cover; 
 }
 
-/* Title for the Video Section */
+
 .youtube-embed .caption {
- /* YouTube Embed Section */
+
 
 .youtube-embed {
-    height: 500 px; /* Set this to match the height of your carousel */
+    height: 500 px; 
     overflow: hidden;
    margin-top: 25px;
 }
@@ -342,7 +342,7 @@ body {
 .youtube-embed iframe {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the video covers the space without distortion */
+    object-fit: cover;
 }
 
 /* Title for the Video Section */
@@ -406,15 +406,15 @@ body {
     }
   }
 
- /* Style social media icons */
+ /* social media icons */
 .social-media a {
-    font-size: 30px; /* Adjust size of icons */
-    color: #fff; /* Default color for icons */
-    transition: color 0.3s ease-in-out; /* Smooth transition for hover */
+    font-size: 30px; 
+    color: #fff; 
+    transition: color 0.3s ease-in-out; 
   }
   
   .social-media a:hover {
-    color: #FFB800; /* Change color on hover */
+    color: #FFB800; 
   }
   
   /* Button Alignment */
@@ -429,9 +429,9 @@ body {
 
 /* Custom styling for 'Or' text */
 .or-text {
-    color: #fff;  /* Example color */
+    color: #fff;  
     font-weight: bold;
-    margin: 0 1px;  /* Adjust spacing around 'Or' */
+    margin: 0 1px;  
   }
   
  
